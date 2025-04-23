@@ -55,7 +55,7 @@ def train_yolo():
     args = {
         'data': 'dataset/data.yaml',
         'epochs': 1,
-        'imgsz': 640,
+        'imgsz': 1024,
         'batch': 8,
         'device': 0,
         'workers': 4,
