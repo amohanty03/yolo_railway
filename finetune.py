@@ -39,7 +39,7 @@ def create_data_yaml():
         'test': os.path.join(current_dir, 'images/test'),    # test images
         
         # Classes (using 0-based indexing)
-        'names': ['object'],  # single class, index 0
+        'names': ['railway'],  # single class, index 0
         'nc': 1  # number of classes (just one class)
     }
     
@@ -102,7 +102,7 @@ def train_yolo():
             args['workers'] = 2
             try:
                 results = model.train(**args)
-                model.export(format='onnx')
+                model.export(format='torchscript')
                 model.save('best_model.pt')
                 return results
             except Exception as cpu_e:
