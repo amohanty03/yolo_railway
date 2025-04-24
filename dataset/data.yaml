@@ -1,0 +1,7 @@
+names:
+- railway
+nc: 1
+path: C:\Users\ankit\Desktop\TAMU\Courses\Spring 2025\CSCE 753\yolo_railway
+test: C:\Users\ankit\Desktop\TAMU\Courses\Spring 2025\CSCE 753\yolo_railway\images/test
+train: C:\Users\ankit\Desktop\TAMU\Courses\Spring 2025\CSCE 753\yolo_railway\images/train
+val: C:\Users\ankit\Desktop\TAMU\Courses\Spring 2025\CSCE 753\yolo_railway\images/train
