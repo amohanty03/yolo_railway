@@ -54,7 +54,7 @@ def convert_coco_to_yolo(coco_annotation_path, output_dir):
                     f.write(f"{category_id} {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}\n")
 
 if __name__ == "__main__":
-    coco_annotation_path = "train_dataset/_annotations.coco.json"
-    output_dir = "labels/train_dataset/"  # Directory where txt files will be saved
+    coco_annotation_path = "images/valid/_annotations.coco.json"
+    output_dir = "labels/valid/"  # Directory where txt files will be saved
     convert_coco_to_yolo(coco_annotation_path, output_dir)
     print("Conversion completed!")
