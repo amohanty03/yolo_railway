@@ -35,8 +35,7 @@ This project leverages the YOLOv8 object detection framework to detect railway t
 ├── graph.py                     # Plot loss and mAP curves
 ├── output.py                    # Export or visualization utilities
 ├── yolo_inference.py            # Run inference and save results
-├── yolo_standard.py             # Training script (Standard dataset)
-└── Untitled presentation.pdf    # Supporting slides (if any)
+└── yolo_standard.py             # Training script (Standard dataset)
 ```
 
 ---
